@@ -1,3 +1,13 @@
+## 🏆 Project Highlights
+
+- 🤖 AI-powered autonomous drone
+- 👥 Real-time crowd detection
+- 🚧 Obstacle avoidance
+- 📡 MAVLink communication
+- 🛰️ Pixhawk 6X Flight Controller
+- 🖥️ ROS2 Integration
+- 📷 OpenCV + YOLOv8
+
 # 🚁 Vision-Guided Autonomous Drone System for Aerial Crowd Monitoring and Adaptive Navigation
 
 ![Drone](IMG_2269.jpg)
