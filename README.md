@@ -1,131 +1,82 @@
-## 🏆 Project Highlights
-
-- 🤖 AI-powered autonomous drone
-- 👥 Real-time crowd detection
-- 🚧 Obstacle avoidance
-- 📡 MAVLink communication
-- 🛰️ Pixhawk 6X Flight Controller
-- 🖥️ ROS2 Integration
-- 📷 OpenCV + YOLOv8
-
-# 🚁 Vision-Guided Autonomous Drone System for Aerial Crowd Monitoring and Adaptive Navigation
+# 🚁 Vision-Guided Autonomous Drone System
 
 ![Drone](IMG_2269.jpg)
 
-> Final Year B.Tech Project | Robotics & Mechatronics Engineering
+## 📌 Overview
 
----
-
-## 📌 Project Overview
-
-This project focuses on developing an AI-powered autonomous drone capable of detecting crowds, avoiding obstacles, and navigating safely in dynamic environments using computer vision and autonomous flight technologies.
-
-The system combines **ROS2**, **OpenCV**, **YOLOv8**, **Pixhawk**, and **Raspberry Pi** to perform intelligent aerial monitoring for applications such as public safety, disaster response, and surveillance.
+An autonomous drone for real-time crowd monitoring using AI and computer vision.
 
 ---
 
 ## 🎯 Objectives
 
-- 👥 Detect people in real time
-- 🚧 Avoid obstacles autonomously
-- 🛰️ Autonomous waypoint navigation
-- 📹 Live video processing
-- 🤖 AI-based decision making
-- 📡 MAVLink communication
+- Crowd Detection
+- Obstacle Avoidance
+- Autonomous Navigation
+- ROS2 Integration
+- Pixhawk Flight Control
 
 ---
 
-## 🛠 Technologies Used
+## 🏆 Features
 
-| Software | Hardware |
-|-----------|-----------|
-| Python | Raspberry Pi 4 |
-| ROS2 | Pixhawk 6X |
-| OpenCV | Brushless Motors |
-| YOLOv8 | ESC |
-| MAVLink | GPS Module |
-| QGroundControl | Camera Module |
-| Mission Planner | LiPo Battery |
+- YOLOv8 Human Detection
+- OpenCV Image Processing
+- MAVLink Communication
+- Raspberry Pi Companion Computer
+- Autonomous Flight
+
+---
+
+## 🛠 Technologies
+
+- Python
+- ROS2
+- OpenCV
+- YOLOv8
+- Raspberry Pi
+- Pixhawk 6X
+- MAVLink
+- Ubuntu Linux
 
 ---
 
 ## 📷 Prototype
 
-### Drone Platform
-
 ![Drone](IMG_2269.jpg)
-
-### Hardware Setup
-
-![Hardware](IMG_1438%202.jpg)
 
 ---
 
-## 📂 Repository Structure
+## 📂 Project Structure
 
 ```
 vision-guided-autonomous-drone
 │
-├── README.md
-├── src/
+├── src
 │   ├── crowd_detection.py
-│   ├── obstacle_detection.py
 │   ├── drone_control.py
+│   ├── obstacle_detection.py
 │   └── mavlink_interface.py
 │
-├── images/
-│
-├── launch/
-│
-└── docs/
+├── docs
+├── launch
+├── models
+├── README.md
+└── requirements.txt
 ```
 
 ---
-Camera
-   │
-   ▼
-OpenCV + YOLOv8
-   │
-   ▼
-ROS2 Nodes
-   │
-   ▼
-MAVLink
-   │
-   ▼
-Pixhawk
-   │
-   ▼
-Drone Motors
 
 ## 🚀 Project Status
 
-🟢 Currently under development as a Final Year B.Tech Project.
-## 📅 Timeline
-
-- ✅ Literature Survey
-- ✅ System Design
-- ✅ Hardware Integration
-- 🔄 AI Model Integration
-- 🔄 Autonomous Flight Testing
-- ⏳ Final Validation
-
-## 🚀 Future Work
-
-- Thermal Camera Integration
-- Multi-drone Coordination
-- Swarm Robotics
-- AI-based Path Planning
-- Edge AI using NVIDIA Jetson
+🟢 Under Development
 
 ---
 
 ## 👨‍💻 Author
 
-**Sai Madhukar K**
+Sai Madhukar K
 
-B.Tech in Robotics and Mechatronics Engineering
+B.Tech Robotics and Mechatronics Engineering
 
 Christ University, Bengaluru
-
----
