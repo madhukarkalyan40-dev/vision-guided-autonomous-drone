@@ -1,4 +1,9 @@
 # 🚁 Vision-Guided Autonomous Drone System
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green)
+![YOLOv8](https://img.shields.io/badge/YOLO-v8-red)
+![Pixhawk](https://img.shields.io/badge/Pixhawk-6X-orange)
 
 ![Drone](IMG_2269.jpg)
 
