@@ -2,6 +2,13 @@
 
 ## Overview
 This project aims to develop an autonomous drone capable of real-time crowd monitoring using AI and computer vision. The system detects people, avoids obstacles, and navigates safely in dynamic environments.
+## Project Prototype
+
+### Drone Prototype
+![Drone](IMG_2269.jpg)
+
+### Hardware Setup
+![Hardware](IMG_1438%202.jpg)
 
 ## Features
 - Real-time crowd detection using YOLOv8
