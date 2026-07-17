@@ -81,6 +81,34 @@ vision-guided-autonomous-drone
 ```
 
 ---
+Camera
+   │
+   ▼
+OpenCV + YOLOv8
+   │
+   ▼
+ROS2 Nodes
+   │
+   ▼
+MAVLink
+   │
+   ▼
+Pixhawk
+   │
+   ▼
+Drone Motors
+
+## 🚀 Project Status
+
+🟢 Currently under development as a Final Year B.Tech Project.
+## 📅 Timeline
+
+- ✅ Literature Survey
+- ✅ System Design
+- ✅ Hardware Integration
+- 🔄 AI Model Integration
+- 🔄 Autonomous Flight Testing
+- ⏳ Final Validation
 
 ## 🚀 Future Work
 
