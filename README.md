@@ -1,45 +1,93 @@
-# Vision-Guided Autonomous Drone System for Aerial Crowd Monitoring and Adaptive Navigation
+# 🚁 Vision-Guided Autonomous Drone System for Aerial Crowd Monitoring and Adaptive Navigation
 
-## Overview
-This project aims to develop an autonomous drone capable of real-time crowd monitoring using AI and computer vision. The system detects people, avoids obstacles, and navigates safely in dynamic environments.
-## Project Prototype
+![Drone](IMG_2269.jpg)
 
-### Drone Prototype
+> Final Year B.Tech Project | Robotics & Mechatronics Engineering
+
+---
+
+## 📌 Project Overview
+
+This project focuses on developing an AI-powered autonomous drone capable of detecting crowds, avoiding obstacles, and navigating safely in dynamic environments using computer vision and autonomous flight technologies.
+
+The system combines **ROS2**, **OpenCV**, **YOLOv8**, **Pixhawk**, and **Raspberry Pi** to perform intelligent aerial monitoring for applications such as public safety, disaster response, and surveillance.
+
+---
+
+## 🎯 Objectives
+
+- 👥 Detect people in real time
+- 🚧 Avoid obstacles autonomously
+- 🛰️ Autonomous waypoint navigation
+- 📹 Live video processing
+- 🤖 AI-based decision making
+- 📡 MAVLink communication
+
+---
+
+## 🛠 Technologies Used
+
+| Software | Hardware |
+|-----------|-----------|
+| Python | Raspberry Pi 4 |
+| ROS2 | Pixhawk 6X |
+| OpenCV | Brushless Motors |
+| YOLOv8 | ESC |
+| MAVLink | GPS Module |
+| QGroundControl | Camera Module |
+| Mission Planner | LiPo Battery |
+
+---
+
+## 📷 Prototype
+
+### Drone Platform
+
 ![Drone](IMG_2269.jpg)
 
 ### Hardware Setup
+
 ![Hardware](IMG_1438%202.jpg)
 
-## Features
-- Real-time crowd detection using YOLOv8
-- Autonomous navigation
-- Obstacle avoidance
-- ROS2-based communication
-- Pixhawk flight controller integration
-- Raspberry Pi companion computer
+---
 
-## Technologies
-- Python
-- ROS2
-- OpenCV
-- YOLOv8
-- Raspberry Pi 4
-- Pixhawk 6X
-- ArduPilot
-- MAVLink
-- QGroundControl
-- Ubuntu Linux
+## 📂 Repository Structure
 
-## Applications
-- Public safety
-- Disaster response
-- Crowd monitoring
-- Smart surveillance
+```
+vision-guided-autonomous-drone
+│
+├── README.md
+├── src/
+│   ├── crowd_detection.py
+│   ├── obstacle_detection.py
+│   ├── drone_control.py
+│   └── mavlink_interface.py
+│
+├── images/
+│
+├── launch/
+│
+└── docs/
+```
 
-## Status
-🚧 Final Year B.Tech Project (Under Development)
+---
 
-## Author
-Sai Madhukar K
-B.Tech Robotics and Mechatronics Engineering
+## 🚀 Future Work
+
+- Thermal Camera Integration
+- Multi-drone Coordination
+- Swarm Robotics
+- AI-based Path Planning
+- Edge AI using NVIDIA Jetson
+
+---
+
+## 👨‍💻 Author
+
+**Sai Madhukar K**
+
+B.Tech in Robotics and Mechatronics Engineering
+
 Christ University, Bengaluru
+
+---
